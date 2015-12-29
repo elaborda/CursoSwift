@@ -10,7 +10,11 @@ for var i = 0; i <= 100; i++ {
     if i >= 30 && i <= 40 {
         print("\(i)\t Viva Swift!!!")
     } else if modulo5 == 0 {
-            print("\(i)\t #Bingo!!!")
+            if i == 0 {
+                print("\(i)\t #Soy el Cero!!!")
+            } else {
+                print("\(i)\t #Bingo!!!")
+            }
         } else if modulo2 == 0 {
             print("\(i)\t #par!!!")
         } else {
